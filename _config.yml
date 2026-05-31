@@ -1,0 +1,13 @@
+title: 我的博客
+subtitle: ''
+description: ''
+author: 你的名字
+language: zh-CN
+timezone: Asia/Shanghai
+
+url: https://你的GitHub用户名.github.io/my-blog   # 注意：最后要加上仓库名
+root: /my-blog/   # 必须与仓库名相同
+
+theme: landscape   # 暂时使用默认主题，之后可以换
+deploy:
+  type: ''
