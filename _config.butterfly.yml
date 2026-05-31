@@ -1,0 +1,44 @@
+menu:
+  首页: / || fa fa-home
+  归档: /archives/ || fa fa-archive
+  分类: /categories/ || fa fa-folder-open
+  标签: /tags/ || fa fa-tags
+  关于: /about/ || fa fa-user
+
+ favicon: /img/favicon.ico
+
+avatar: https://avatars.githubusercontent.com/你的用户名
+
+social:
+  GitHub: https://github.com/你的用户名 || fab fa-github
+
+preloader: true
+
+night_mode:
+  enable: true
+
+toc:
+  enable: true
+  number: true
+  expand: true
+  style: simple
+
+post:
+  meta:
+    date_type: created
+  wordcount: true
+  readtime: true
+
+aside:
+  enable: true
+  position: right
+  avatar: true
+  toc: true
+  post_count: true
+  categories: true
+  tags: true
+  tagcloud: true
+
+footer:
+  owner: 你的名字
+  information: 个人学习博客 | 保持热爱，奔赴山海
