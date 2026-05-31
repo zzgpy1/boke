@@ -1,13 +1,65 @@
-title: 我的博客
+title: 我的技术博客
 subtitle: ''
-description: ''
+description: '个人技术分享、生活记录、学习笔记'
+keywords: 博客,技术,学习
 author: 你的名字
 language: zh-CN
 timezone: Asia/Shanghai
 
-url: https://你的GitHub用户名.github.io/my-blog   # 注意：最后要加上仓库名
-root: /my-blog/   # 必须与仓库名相同
+url: https://你的用户名.github.io
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
 
-theme: landscape   # 暂时使用默认主题，之后可以换
+default_layout: post
+titlecase: false
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+archive_generator:
+  per_page: 10
+  yearly: true
+  monthly: true
+  daily: false
+
+category_generator:
+  per_page: 10
+
+tag_generator:
+  per_page: 10
+
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+per_page: 10
+pagination_dir: page
+
+theme: butterfly
+
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:你的用户名/你的用户名.github.io.git
+  branch: gh-pages
