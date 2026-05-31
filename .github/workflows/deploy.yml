@@ -27,7 +27,7 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install   # 改成了 npm install，不再需要 lockfile
 
       - name: Generate static files
         run: npx hexo generate
