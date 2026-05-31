@@ -1,3 +1,4 @@
+# 顶部菜单（对齐原站核心分类）
 menu:
   首页: / || fa fa-home
   归档: /archives/ || fa fa-archive
@@ -5,30 +6,32 @@ menu:
   标签: /tags/ || fa fa-tags
   关于: /about/ || fa fa-user
 
- favicon: /img/favicon.ico
+# 基础美化
+favicon: ""
+avatar: ""
 
-avatar: https://avatars.githubusercontent.com/你的用户名
-
-social:
-  GitHub: https://github.com/你的用户名 || fab fa-github
-
+# 加载动画
 preloader: true
 
+# 暗黑模式
 night_mode:
   enable: true
+  default: auto
 
+# 文章目录
 toc:
   enable: true
   number: true
   expand: true
-  style: simple
 
+# 文章信息
 post:
-  meta:
-    date_type: created
   wordcount: true
   readtime: true
+  meta:
+    date_type: created
 
+# 侧边栏（复刻原站布局）
 aside:
   enable: true
   position: right
@@ -39,6 +42,18 @@ aside:
   tags: true
   tagcloud: true
 
+# 页脚信息
 footer:
-  owner: 你的名字
-  information: 个人学习博客 | 保持热爱，奔赴山海
+  owner: 你的昵称
+  since: 2026
+  information: 守住节奏，慢慢前行，剩下的交给时间
+
+# 全局简约风格
+theme_color:
+  enable: true
+  main: "#49B1F5"
+  hover: "#0084FF"
+
+# 取消冗余特效，贴合原站安静风格
+canvas_nest: false
+ribbon: false
